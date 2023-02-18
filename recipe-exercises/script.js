@@ -19,4 +19,4 @@ let marinaraSauce = (cookName) => {
     console.log("Stir in 1/4 cup roughly chopped fresh basil, salt and pepper as needed.")
 }
 
-marinaraSauce("Cody")
+marinaraSauce("Cory")
