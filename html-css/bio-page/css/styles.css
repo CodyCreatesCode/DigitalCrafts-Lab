@@ -31,12 +31,19 @@ img {
     color: white; 
 } 
 
-
+.bio-2 {
+  overflow: hidden;
+}
 
 p { 
     text-align: justify; 
     font-size: 25px; 
 } 
+
+.social {
+  margin-top: 60px;
+  text-align: center;
+}
 
 .social [class*="fa fa-"] {
     border-radius: 50%;
