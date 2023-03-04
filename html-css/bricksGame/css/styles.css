@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    position: relative;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 40px 2fr 40px;
+    grid-template-rows: repeat(2, 40px) 1fr;
+    height: 100%;
+}
+
+.row-1 {
+    background-color: black;
+    grid-column: 1/4;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 200px;
+}
+
+.row-2 {
+    background-color: rgb(146, 210, 189);
+    grid-column: 1/4;
+    grid-row: 2/4;
+    margin-bottom: 7px;
+}
+
+.row-3 {
+    background-color: black;
+    grid-column: 2/3;
+     grid-row: 3/4;
+     padding-top: 40px;
+}
+
+.block-container {
+    display: grid;
+    grid-template-rows: 2fr 3fr;
+    height: 100%;
+}
+
+.blocks {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 3px;
+    padding: 0px 3px;
+}
+
+.bricks {
+    border-radius: 3px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
+
+.gray {
+    background-color: rgb(247, 247, 247);
+    height: 20px;
+    width: 20px;
+}
+
+.right {
+    float: right;
+}
+
+.white {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    position: relative;
+    top: 25;
+    left: 70;
+}
+
+.bar {
+    background-color: aquamarine;
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 650;
+}
